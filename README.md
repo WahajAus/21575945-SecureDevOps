@@ -1,0 +1,1 @@
+A repository for project ISEC6000, which contains code base and details of how the saelor platform had been integrated with multiple components working in the microservices and how each component is connected via deployments yaml files deployed on kubernetes cluster.  
