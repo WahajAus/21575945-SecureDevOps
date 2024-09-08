@@ -1,1 +1,10 @@
-A repository for project ISEC6000, which contains code base and details of how the saelor platform had been integrated with multiple components working in the microservices and how each component is connected via deployments yaml files deployed on kubernetes cluster.  
+A repository for project ISEC6000, which contains code base and details of how the saelor platform had been integrated with multiple components working in the microservices and how each component is connected via deployments yaml files deployed on kubernetes cluster.
+
+During this project I learned about microservices, dockerizing applications and databases, docker images and container, when learning about docker I came across Dockerfile as well, the basic component of images. I learned how we can easily package applications and store the data in databasing running through a postgres sql image as a container, and store the environmental variables including the password in kubernetes secret thus increasing the security. 
+
+I came across Kubernetes components and made manifest files for each of the components, deployments, services, secrets , volumes , pod and nodes. I learned how you can deploy the kuberntes cluster on the local environment like minikube or you can use the kuberntes manage services on google cloud platform , google kuberntes engine. I installed the gcloud cli and created a GKE cluster and accessed it using the kubeconfig file to interact with the cluster. I installed kubectl cli as well to interact with different components of this cluster. 
+
+
+moreover I tried implementing the security measure and vulnerabilities and for that I used trivy by using it's database to detect for security implications based on their severity level. I also tried deploying the kube-dns scan vulnerability using the helm chart but unfortunately my cluster configurations didn't allowed me to. 
+
+Furthermore, since I had a windows based machine I personally learned about Windows subsystem linux WSL of how you can interact with Ubuntu without using a virtual box. I also came across LENS desktop which is apparently a UI for the kuberntes cluster but unfortunately I was involved in some hardware level issues that I was unable to manage it. 
